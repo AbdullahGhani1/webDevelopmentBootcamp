@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 p {
-  font-family: sans-serif;
+  font-family: "Metrophobic", sans-serif;
   text-align: center;
   color: #696969;
 }
@@ -17,4 +17,11 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* id Selector */
+#todays-challenge {
+  color: rgb(195, 11, 11);
+  font-weight: bold;
+  font-size: 1.4rem;
 }
