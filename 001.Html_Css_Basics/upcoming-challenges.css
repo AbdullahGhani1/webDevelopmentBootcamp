@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+}
+#fullWeek {
+  font-size: 3.125rem;
+  font-family: "Oswald", sans-serif;
+}
+.upcomming-goals {
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(100, 100, 100);
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(65, 0, 109);
+}
+a:hover {
+  text-decoration: underline;
+  color: tomato;
+}

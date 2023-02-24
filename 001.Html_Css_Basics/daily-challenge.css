@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(233, 215, 207);
+  margin: 3.125rem;
+}
 h1 {
   font-family: sans-serif;
   color: tomato;
@@ -9,7 +13,7 @@ h1 {
 p {
   font-family: "Metrophobic", sans-serif;
   text-align: center;
-  color: #696969;
+  color: rgba(83, 75, 75);
 }
 a {
   color: rgb(167, 1, 78);
@@ -21,7 +25,15 @@ a:hover {
 
 /* id Selector */
 #todays-challenge {
-  color: rgb(195, 11, 11);
+  color: rgb(170, 95, 85);
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 52px;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+}
+.img-container {
+  text-align: center;
 }
