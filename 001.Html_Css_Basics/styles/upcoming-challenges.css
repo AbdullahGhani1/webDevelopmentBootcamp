@@ -1,0 +1,13 @@
+#fullWeek {
+  font-size: 3.125rem;
+}
+.upcomming-goals {
+  color: rgb(100, 100, 100);
+}
+ol {
+  list-style: none;
+}
+li {
+  list-style: square;
+  list-style: none;
+}

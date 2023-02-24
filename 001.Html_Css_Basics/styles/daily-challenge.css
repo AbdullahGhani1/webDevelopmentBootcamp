@@ -1,0 +1,21 @@
+h1 {
+  color: tomato;
+}
+p {
+  color: rgba(83, 75, 75);
+}
+
+/* id Selector */
+#todays-challenge {
+  color: rgb(170, 95, 85);
+  font-weight: bold;
+  font-size: 52px;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+}
+.img-container {
+  text-align: center;
+}
