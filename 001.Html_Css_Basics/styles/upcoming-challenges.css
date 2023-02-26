@@ -1,13 +1,24 @@
 #fullWeek {
-  font-size: 3.125rem;
+  font-size: 48px;
+  color: rgb(71, 62, 62);
 }
-.upcomming-goals {
-  color: rgb(100, 100, 100);
+a {
+  background-color: rgb(168, 1, 78);
+  color: white;
+  border-radius: 6px;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: rgb(172, 12, 112);
+  color: #fff;
 }
 ol {
   list-style: none;
 }
 li {
-  list-style: square;
-  list-style: none;
+  /* list-style: square; */
+  background-color: rgb(223, 136, 124);
+  border-radius: 6px;
+  margin: 32px;
 }
