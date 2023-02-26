@@ -3,6 +3,9 @@
   color: rgb(71, 62, 62);
   margin: 32px 0;
 }
+header {
+  margin-bottom: 64px;
+}
 header p {
   margin-bottom: 36px;
 }
@@ -39,4 +42,7 @@ li > h2 {
 main p {
   margin: 12px;
   color: rgb(71, 29, 22);
+}
+.highlight-goal {
+  background-color: rgb(226, 115, 101);
 }
