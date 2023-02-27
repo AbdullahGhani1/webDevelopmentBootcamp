@@ -4,52 +4,73 @@
 body {
   background-color: #f4e9fe;
   font-family: "Roboto", sans-serif;
+}
+/* header */
+header {
   text-align: center;
+  padding: 32px;
 }
 h1 {
-  color: rgb(86, 47, 207);
+  font-size: 52px;
+  color: rgb(88, 49, 196);
   font-weight: 700;
 }
-img {
-  width: 250px;
+header img {
+  width: 300px;
 }
 h2 {
   font-weight: 200;
 }
+/* end of header*/
+
+/* main */
+
+main {
+  text-align: left;
+  background-color: rgb(122, 74, 218);
+  color: rgb(248, 241, 255);
+  max-width: 700px;
+  padding: 32px;
+  margin: 32px auto;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(119, 74, 215, 0.2);
+}
+/* list styling */
 p,
 li {
   font-family: sans-serif;
   font-weight: 200;
 }
-main {
-  text-align: left;
-  background-color: rgb(119, 74, 215);
-  color: #fff;
-  padding: 24px;
-  max-width: 800px;
-  margin: 40px auto 40px auto;
-  border-radius: 6px;
-  box-shadow: 1px 2px 8px rgba(119, 74, 215, 0.2);
-}
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 li {
-  margin: 8px;
-  padding: 0px 8px;
+  margin: 14px;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
 }
 .highlight-list {
-  color: rgb(255, 255, 170);
-  border-left: 5px solid rgb(238, 211, 86);
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
 }
-p span {
+.highlight-text {
+  font-weight: 600;
+}
+p a {
   display: inline-block;
-  background-color: rgb(251, 236, 170);
-  padding: 5px;
+  text-decoration: none;
+  color: rgb(36, 3, 102);
+  background-color: rgb(255, 237, 177);
+  padding: 2px 6px;
   border-radius: 4px;
-  color: rgb(43, 5, 79);
 }
+p a:hover,
+p a:active {
+  background-color: rgb(250, 201, 39);
+}
+
 a {
   display: inline-block;
   background-color: rgb(248, 201, 40);
@@ -58,6 +79,11 @@ a {
   text-decoration: none;
   color: rgb(44, 4, 44);
   margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
 }
 footer p {
   color: rgb(120, 106, 134);
